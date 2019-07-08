@@ -2,128 +2,7 @@ html{background-color: #FAE8C8 !important}
 body{background: #FAE8C8;overflow-x: hidden;}
 .main_w{width:100%;position: 500;}
 .main{width:990px;margin:0 auto;}
-/* 轮播图部分 */
-.carousel{
-  height: 382px;
-  width: 990px;
-  margin:0 auto;
-  position: relative;
-  margin-top: 120px;
-}
-.carousel_main{
-  width: 5000px;
-  position: absolute;
-  height: 330px;
-  left: -1980px;
-}
-.carousel_item{
-  width: 990px;height: 330px;
-  position: absolute;
-}
-.item_title{
-  height: 120px;
-  line-height: 120px;
-  font-size: 24px;
-  color: #222;
-  text-align: center;
-  font-family: "黑体";
-  position: relative;
-  display: block;
-}
-.item_title_caro{
-  position: absolute;
-  top: -120px;
-  width: 990px;
-  display: none;
-}
-.carousel_item1{left:0px;top:0px;}
-.carousel_item3 .item_title{display: block;}
-.carousel_item2{left:990px;top:0px;}
-.carousel_item3{left:1980px;top:0px;}
-.carousel_item4{left:2970px;top:0px;}
-.carousel_item5{left:3960px;top:0px;}
-/* 轮播图li元素 */
-.carousel_item ul li{
-  float: left;
-  height: 330px;width:330px;
-  overflow: hidden;
-  position: relative;
-}
-.carousel_item ul li a.img{
-  display: block;
-  height: 330px;height: 330px;
-}
-.carousel_item ul li a.img img{
-  display: block;
-  height: 330px;height: 330px;
-}
-/* 图片介绍 */
-.carousel_item ul li div.cintr{
-  position: absolute;
-  height: 78px;
-  width: 330px;
-  left: 0px;
-  bottom:0px;
-  background: rgba(255, 255, 255, .6);
-}
-.carousel_item ul li div.cintr h2{
-  height:36px;
-  line-height: 36px;
-  padding-top: 12px;
-  text-indent: 20px;
-}
-.carousel_item ul li div.cintr h2 a{
-  color: #333;
-  font: 24px "黑体";
-}
-.carousel_item ul li div.cintr h2 a:hover{
-  color: #ff3232;
-  text-decoration: underline;
-}
-.carousel_item ul li div.cintr strong{
-  line-height: 18px;
-  color: #666;
-  padding-left: 20px;
-}
-.carousel_item ul li div.cintr span{
-  display: inline-block;
-  position: absolute;
-  top: -6px; right: 10px;
-  height: 30px;
-  line-height: 30px;
-  padding: 0px 14px;
-  background: #60a531;
-}
-.carousel_item ul li div.cintr span a{
-  color:#fff;
-}
-.carousel_item ul li div.cintr span a:hover{
-  text-decoration: underline;
-}
-/* 左右掩饰区域 */
-.maskleft{
-  height: 330px; width: 990px;
-  position: absolute;
-  left: -990px;
-  top: 0px;
-  display: block;
-  background: #fff;
-  /* 透明度 */
-  filter: alpha(opacity=70);
-  opacity: 0.7;
-}
-.maskright{
-  height: 330px; width: 990px;
-  position: absolute;
-  left: 990px;
-  top: 0px;
-  display: block;
-  background: #fff;
-  /* 透明度 */
-  filter: alpha(opacity=70);
-  opacity: 0.7;
-}
-/* 食材 */
+/* 1F轮播图 */
 .ttitles{
   height: 120px;
   font: 24px "黑体";
@@ -131,8 +10,49 @@ body{background: #FAE8C8;overflow-x: hidden;}
   text-align: center;
   position: relative;
   display: block;
-      line-height: 120px;
+  line-height: 120px;
 }
+.carousel{
+  height: 382px;
+  width: 990px;
+  margin: 0px auto;
+  position: relative;
+  margin-top: 120px;
+}
+.carousel_main{
+  /* width: 5000px; */
+  position: relative;
+  height: 330px;
+  /* left: -1980px; */
+}
+.carousel_item{
+  width: 990px;
+  height: 330px;
+  position: absolute;
+}
+.ttitles_carousel{
+  position: absolute;
+  top: -120px;
+  width: 990px;
+  display: none;
+}
+/* 只设置当前div的h3显示 */
+.carousel_item_3 .ttitles_carousel{
+  display: block;
+}
+.carousel_item ul li{
+  float:left;
+  width: 330px; height: 330px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+
+
+
+/* 2F食材 */
 .more{
   display: block;
   font: 12px "宋体";
