@@ -30,6 +30,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
   height: 330px;
   position: absolute;
 }
+/* 先将所有的标题隐藏 */
 .ttitles_carousel{
   position: absolute;
   top: -120px;
@@ -46,7 +47,63 @@ body{background: #FAE8C8;overflow-x: hidden;}
   position: relative;
   overflow: hidden;
 }
-
+.carousel_item ul li a.img{
+  display: block;
+  width: 330px;height: 330px;
+}
+.carousel_item ul li a.img img{
+  display: block;
+  width: 330px;height: 330px;
+}
+.carousel_item ul li div.c{
+  height: 78px; width: 330px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background: rgba(255,255,255,.8);
+}
+.carousel_item ul li div.c h2{
+  height: 32px;
+  line-height: 32px;
+  padding-top: 12px;
+  text-indent: 20px;
+}
+.carousel_item ul li div.c h2 a{
+  font-size: 24px;
+  color: #333;
+}
+.carousel_item ul li div.c h2 a:hover{
+  text-decoration: underline;
+  color: #e90808;
+}
+.carousel_item ul li div.c strong{
+  height: 18px;
+  line-height: 18px;
+  color: #666;
+  padding-left: 20px;
+}
+.carousel_item ul li div.c span{
+  display: inline-block;
+  background: #60a531;
+  height: 30px;
+  line-height: 30px;
+  padding: 0px 14px;
+  position: absolute;
+  top:-6px;
+  right: 10px;
+}
+.carousel_item ul li div.c span a{
+  color:#fff;
+}
+.carousel_item ul li div.c span a:hover{text-decoration: underline;}
+.carousel_item ul li div.c span em{
+  display: block;
+  width:6px;height:6px;
+  background: url(../images/index/gxarrow1.png);
+  position: absolute;
+  top: 0px;
+  right:-6px;
+}
 
 
 
