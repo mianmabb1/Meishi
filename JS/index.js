@@ -1,8 +1,8 @@
 $(function(){
   // 食材列表
   $(".index_sc_item").hover(function(){
-  $(this).siblings().removeClass("index_sc_item_current");
-  $(this).addClass("index_sc_item_current");
+    $(this).siblings().removeClass("index_sc_item_current");
+    $(this).addClass("index_sc_item_current");
   });
   // 健康新闻
   $(".health_item li").hover(function(){
