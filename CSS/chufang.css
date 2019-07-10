@@ -1,0 +1,137 @@
+.main_w{
+  width: 100%;
+  position: relative;
+}
+.main{
+  width: 990px;
+  margin: 0 auto;
+}
+/* 列表项 */
+.listnav{
+  margin: 0 auto;
+  width: 990px;
+  position: relative;
+  margin-top: 20px;
+}
+.listnav_ul{
+  width: 990px; height: 50px;
+  background:rgba(255,255,255,.5)
+}
+.listnav_ul li{
+  display: inline-block;
+  vertical-align: top;
+  height:50px;
+  line-height: 50px;
+  font-size: 14px;
+  /* float: left; */
+}
+.listnav_ul li a.link{
+  height:50px;
+  color:#333;
+  font-weight: 700;
+  position: relative;
+  padding: 0 24px;
+  display: inline-block;
+}
+.listnav_ul li a.link:hover{
+  color: #ff3232;
+  background: rgba(255,255,255,.3);
+}
+.listnav_ul li.current{
+  background: #fff;
+}
+.listnav_ul li h1{
+  display: inline-block;
+}
+.listnav_ul li.current a.link{
+  color: #ff3232;
+}
+/* 列表项内容 */
+.listnav_con{
+  width: 990px;
+  background:#fff;
+}
+/* 设置边框 */
+.listnav_con .bb1{
+  border-bottom: 1px solid #eee;
+}
+.listnav_con .br1{
+  border-right: 1px solid #eee;
+}
+.listnav_con .w100{
+  width: 100%;
+}
+.listnav_dl{
+  padding: 10px 16px 14px;
+  display: inline-block;
+}
+.listnav_dl dt{
+  display: block;
+  height: 42px;
+  line-height: 42px;
+  position: relative;
+}
+.listnav_dl dt a{
+  color: #333;
+  font-size: 24px;
+}
+.listnav_dl dd{
+  display: inline-block;
+  height: 28px;
+}
+.listnav_dl dd a{
+  color:#666;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0 8px;
+  height: 28px;
+  line-height: 28px;
+}
+.listnav_dl dd a:hover{
+  color:#fff;
+  background: #ff3232;
+}
+.ttitles span.more a.current{color: #ff3232;}
+
+.liststyle{
+  width: 988px;
+  margin: 0 auto 20px;
+}
+.filterlist{
+  width: 232px;
+  float:left;
+  background: #fff;
+}
+.filterlist .tab{
+  height: 50px;
+  background: #f5f5f5;
+}
+.filterlist .tab li{
+  float: left;
+  width: 116px;
+  position: relative;
+}
+.filterlist .tab li a{
+  display: block;
+  line-height: 50px;
+  text-align: center;
+  color:#333;
+  font-weight: 700;
+}
+.filterlist .tab li a:hover{
+  text-decoration: underline;
+}
+.filterlist .tab li.current{
+  background: #fff;
+}
+.filterlist .tab li.current a{
+  color: #ff3232;
+}
+.new_function{
+  background: url(../images/chufang/littletips_new.gif);
+  display: block;
+  width: 52px; height: 18px;
+  position: absolute;
+  top: -6px;
+  right: -6px;
+}

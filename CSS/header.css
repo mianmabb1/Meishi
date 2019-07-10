@@ -189,6 +189,7 @@
   background: #ff3232;
   color:#fff;
 }
+/* 两个扩展选项中的小图 */
 .nav ul li .cook .extend_cpdq .bgitem{
   background:url(../images/header/jccp_navbgg.png) right bottom no-repeat;
   position:absolute;

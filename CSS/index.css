@@ -109,6 +109,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
 
 
 
+
 /* 2F食材 */
 .more{
   display: block;
@@ -136,7 +137,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
   padding: 0px 20px;
 }
 .index_sc_item{
-  float: left;
+  /* float: left; */
   display: inline-block;
   vertical-align: top;
   height: 60px;
@@ -144,7 +145,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
 }
 .index_sc_item a.link{
   color: #666;
-  float: left;
+  /* float: left; */
   display: inline-block;
   font-size: 14px;
   vertical-align: top;
@@ -363,7 +364,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
   background: #e90808;
 }
 /* 索引部分 */
-.index_cp_w span.more{
+.ttitles span.more{
   display: block;
   height: 48px;
   line-height: 48px;
