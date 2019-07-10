@@ -130,7 +130,6 @@
 /* 菜谱大全，饮食健康 */
 .nav ul li.extend{
   background: url("../images/header/msj_menuarrow.gif") no-repeat right center;
-
 }
 /* 美食达人li小图标 */
 .nav a.link .crown{
@@ -138,4 +137,69 @@
   vertical-align: top;
   margin-top: 10px;
   margin-left: -7px;
+}
+.nav ul li .cook{
+  display: none;
+  position: absolute;
+  top: 76px;
+  left: 0px;
+  width: 100%;
+}
+.nav ul li.on .cook{
+  display: block;
+}
+.nav ul li .cook .cookb{
+  width: 930px;
+  margin: 0 auto;
+  background: #fafafa;
+  position: relative;
+  box-shadow: 3px 3px 5px rgba(0,0,0,.1);
+  padding: 18px 30px 24px;
+}
+.nav ul li .cook .cook_item{
+  display: block;
+  overflow: hidden;
+  padding: 0px 10px 12px 0px;
+}
+.nav ul li .cook .cook_sitem{
+  display: inline-block;
+  width: 330px;
+}
+.nav ul li .extend .cook_item dl dt{
+  display: block;
+  height: 24px;
+  line-height: 24px;
+}
+.nav ul li .cook .cook_item dl dt a{
+  color:#ff3232;
+  font-size: 18px;
+}
+.nav ul li .cook .cook_item dl dd{
+  display: inline-block;
+  height: 24px;
+  line-height:24px;
+  padding-right: 14px;
+}
+.nav ul li .cook .cook_item dl dd a{
+  color:#999;
+  font-size: 12px;
+  float: left;
+}
+.nav ul li .cook .cook_item dl a:hover{
+  background: #ff3232;
+  color:#fff;
+}
+.nav ul li .cook .extend_cpdq .bgitem{
+  background:url(../images/header/jccp_navbgg.png) right bottom no-repeat;
+  position:absolute;
+  right:-60px;
+  bottom:-30px;
+  height:226px;width:406px;
+}
+.nav ul li .cook .extend_ysjk .bgitem{
+  background:url(../images/header/ysjk_navbg.png) right bottom no-repeat;
+  position:absolute;
+  right:-60px;
+  bottom:-30px;
+  height:208px;width:325px;
 }
