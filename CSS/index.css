@@ -1,7 +1,12 @@
 html{background-color: #FAE8C8 !important}
 body{background: #FAE8C8;overflow-x: hidden;}
-.main_w{width:100%;position: 500;}
+.main_w{width:100%;position: relative;}
 .main{width:990px;margin:0 auto;}
+.main_w::after{
+  content: "";
+  display: block;
+  clear: both;
+}
 /* 1F轮播图 */
 .ttitles{
   height: 120px;
@@ -237,6 +242,16 @@ body{background: #FAE8C8;overflow-x: hidden;}
 }
 .listyle{
   width:988px;
+}
+.listyle::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.listyle1_list::after{
+  content: "";
+  display: block;
+  clear: both;
 }
 .listyle1{
   width: 232px;height: 332px;

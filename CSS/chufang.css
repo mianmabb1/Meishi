@@ -1,10 +1,5 @@
 .main_w{
-  width: 100%;
-  position: relative;
-}
-.main{
-  width: 990px;
-  margin: 0 auto;
+  padding-bottom: 100px;
 }
 /* 列表项 */
 .listnav{
@@ -91,11 +86,19 @@
   color:#fff;
   background: #ff3232;
 }
+
+/* 标题 */
 .ttitles span.more a.current{color: #ff3232;}
 
+/* 左侧筛选区 */
 .liststyle{
   width: 988px;
   margin: 0 auto 20px;
+}
+.liststyle::after{
+  content: "";
+  display: block;
+  clear: both;
 }
 .filterlist{
   width: 232px;
@@ -135,6 +138,7 @@
   top: -6px;
   right: -6px;
 }
+/* 清除浮动 */
 .filterlist .tabcon dl::after{
   content: "";
   display:block;
@@ -194,6 +198,7 @@
   background: #eee;
   cursor: pointer;
 }
+/* 食材筛选输入框 */
 .tabcon_search{
   height: 50px;width: 232px;
   float: left;
@@ -227,4 +232,74 @@
 }
 .tabcon_search div.w input.submit:hover{
   background: url(../images/chufang/searchbtn1.png)0px -46px no-repeat;
+}
+.liststyle .tabcon dl dd.row2 a{
+  width: 202px;
+  position: relative;
+}
+.liststyle .tabcon dl dd.row2 a:hover{
+  background: url(../images/chufang/liststyle1_icons.png) 169px -66px no-repeat;
+}
+.liststyle .tabcon dl dd.row2 a span.season{
+  color: #fff;
+  background: #60A531;
+  height: 20px;
+  padding: 0px 5px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  line-height: 20px;
+  display: inline-block;
+}
+.liststyle .tabcon dl dd.row2 a strong{
+  float: left;
+  padding-left: 60px;
+}
+.liststyle .tabcon dl dd.row2 em{
+  float: right;
+  padding-right: 20px;
+  color: #999;
+}
+/* 菜谱区 */
+.listyle{
+  width: 756px;
+  float: left;
+}
+/* 页码 */
+.listyle1_page{
+  height: 40px;
+  margin: 40px auto;
+  text-align: center;
+}
+.listyle1_page_con{
+  margin: 0px auto;
+  display: inline-block;
+}
+.listyle1_page_con a{
+  display: inline-block;
+  height: 40px;
+  min-width: 14px;
+  line-height: 40px;
+  padding: 0px 13px;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  background: #f5f5f5;
+  margin-right: 1px;
+}
+.listyle1_page_con a.current{
+  background: #ff3232;
+  color:#fff;
+}
+.listyle1_page_con a:hover{
+  background: #ff3232;
+  color:#fff;
+}
+.listyle1_page_con span{
+  display: inline-block;
+  padding: 0px 10px;
+  line-height: 40px;
+}
+.listyle1_page_con a.next{
+  margin-left: 20px;
 }
