@@ -135,8 +135,10 @@
   top: -6px;
   right: -6px;
 }
-.tabcon{
-  /* display: none; */
+.filterlist .tabcon dl::after{
+  content: "";
+  display:block;
+  clear: both;
 }
 .filterlist .tabcon dl dt{
   display: block;
@@ -161,7 +163,7 @@
   float: left;
   display: none;
 }
-.filterlist .tabcon dl.on dt{
+.filterlist .tabcon dl.on dd{
   display: block;
 }
 .filterlist .tabcon dl dd a{
@@ -191,4 +193,38 @@
 .filterlist .tabcon dl dd.long:hover{
   background: #eee;
   cursor: pointer;
+}
+.tabcon_search{
+  height: 50px;width: 232px;
+  float: left;
+  border-bottom: 1px solid #eee;
+}
+.tabcon_search div.w{
+  height: 28px;width: 202px;
+  border: 1px solid #ddd;
+  margin: 10px 14px;
+  position: relative;
+  overflow: hidden;
+  background: #fafafa;
+}
+.tabcon_search div.w input.text{
+  height: 20px;width: 160px;
+  padding: 4px;
+  line-height: 20px;
+  background: none;
+  color:#999;
+  border:0;
+}
+.tabcon_search div.w input.submit{
+  width: 32px;height: 28px;
+  background: url(../images/chufang/searchbtn1.png)0px -6px no-repeat;
+  border:0;
+  cursor: pointer;
+  position: absolute;
+  top:0;
+  right:0;
+  overflow: hidden;
+}
+.tabcon_search div.w input.submit:hover{
+  background: url(../images/chufang/searchbtn1.png)0px -46px no-repeat;
 }

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="../CSS/chufang.css">
   <script src="../JS/jquery-1.11.3.js"></script>
   <script src="../JS/index.js"></script>
+  <script src="../JS/chufang.js"></script>
 </head>
 <body>
   <div class="main_w">
@@ -78,17 +79,17 @@
         </span>
       </div>
       <div class="liststyle">
-        <div class="filterlist">
+        <div class="filterlist" id="filterlist">
           <ul class="tab">
-            <li class="li1 current">
+            <li class="li1" po="1">
               <a href="javascript:;">普通筛选</a>
             </li>
-            <li class="li2">
+            <li class="li2 current" po="2">
               <a href="javascript:;">食材筛选</a>
               <span class="new_function"></span>
             </li>
           </ul>
-          <div class="tabcon">
+          <div class="tabcon" po="1" style="display: none">
             <dl>
               <dt>选择难度</dt>
               <dd>
@@ -147,6 +148,24 @@
                 <a href="javascript:;">&lt;数天</a>
               </dd>
             </dl>
+          </div>
+          <div class="tabcon" po="2">
+            <div class="tabcon_search">
+              <div class="w">
+                <input type="text" class="text" placeholder="请输入您想查找的食材">
+                <input type="button" class="submit">
+              </div>
+              <dl class="on">
+                <dt>按数量排序</dt>
+                <dd class="row2">
+                  <a href="javascript:;">
+                    <span class="season">应季</span>
+                    <strong>黄瓜</strong>
+                    <em>1709</em>
+                  </a>
+                </dd>
+              </dl>
+            </div>
           </div>
         </div>
       </div>
