@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+  <title>美食杰-用户登录</title>
+  <!-- <link rel="stylesheet" href="../CSS/normalize.css"> -->
+  <link rel="stylesheet" href="../CSS/index.css">
+  <link rel="stylesheet" href="../CSS/base.css">
+  <link rel="stylesheet" href="../CSS/login.css">
+  <script src="../JS/jquery-1.11.3.js"></script>
+  <script src="../JS/login.js"></script>
+</head>
+<body>
+  <div class="main_w">
+    <div class="loginpage">
+      <h3 class="lp_title">
+        <span class="lp_t_left"></span>
+        登录美食杰
+        <span class="lp_t_right"></span>
+      </h3>
+      <!-- 第三方登录方式 -->
+      <div class="lp_fs">
+        <div class="lp_fs1">
+          <a href="javascript:;" class="a1"><span class="icon"></span></a>
+          <a href="javascript:;" class="a2"><span class="icon"></span></a>
+          <a href="javascript:;" class="a3"><span class="icon"></span></a>
+        </div>
+        <a href="javascrpt:;" class="golink" id="more_fs" opened="0">更多第三方登录方式 ∨</a>
+        <div class="lp_morefs">
+          <a href="javascrpt:;" class="a1">人人网账号登录</a>
+          <a href="javascrpt:;" class="a2">百度账号登录</a>
+          <a href="javascrpt:;" class="a3">开心网账号登录</a>
+        </div>
+        <div class="lp_or"></div>
+      </div>
+      <!-- 普通登录 -->
+      <div class="lp_login" style="display: none">
+        <form action="post">
+          <input type="text" class="text" placeholder="请输入手机号/邮箱/昵称">
+          <input type="password" class="password" placeholder="请输入密码">
+          <input type="checkbox" class="checkbox">
+          <span>下次自动登录</span>
+          <a href="javascript:;" class="forgetPwd">忘记密码?</a>
+          <div><input type="submit" class="submit" value="登录"></div>
+        </form>
+      </div>
+      <!-- 注册表单 -->
+      <div class="lp_zc">
+        <div class="lp_tab">
+          <a href="javascrpt:;" class="current" id="zc_phone">手机注册</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+          <a href="javascrpt:;" id="zc_email">邮箱注册</a>
+        </div>
+        <div class="lp_zc_con clearfix">
+          <div class="zc_item">
+            <form action="post">
+              <input type="text" placeholder="请输入手机号">
+            </form>
+          </div>
+          <div class="zc_item"></div>
+        </div>
+      </div>
+      <a href="javascript:;" class="golink" id="lp_gozc" opened="0">还没有账号? 立即注册 ∨</a>
+    </div>
+  </div>
+</body>
+</html>
