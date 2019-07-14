@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="../CSS/base.css">
   <script src="../JS/jquery-1.11.3.js"></script>
   <script src="../JS/index.js"></script>
+  <script src="../JS/content.js"></script>
 </head>
 <body>
   <div class="main_w">
@@ -286,16 +287,145 @@
               </div>
             </div>
             <h2 class="cp_h2">蜜汁菜谱成品图</h2>
-            <div></div>
+            <div class="cp_banner">
+              <img src="https://s1.st.meishij.net/rs/155/60/5140155/n5140155_155196509444181.jpg">
+              <img src="https://s1.st.meishij.net/rs/155/60/5140155/n5140155_155196506176328.jpg">
+              <img src="https://s1.st.meishij.net/rs/155/60/5140155/n5140155_155196508666654.jpg">
+              <img src="https://s1.st.meishij.net/rs/155/60/5140155/n5140155_155196507926838.jpg">
+              <ul class="cp_banner_index">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
             <h2 class="cp_h2">烹饪技巧</h2>
-            <p>
+            <p class="cp_skill">
               1、如果腌制时间不够，最少腌制1小时，建议冷藏过夜味道更佳。<br>
               2、若一次做的比较多，鸡翅可以分几次来煎，不要一次全部下锅。
             </p>
           </div>
         </div>
         <!-- 讨论 -->
-        <div class="comment"></div>
+        <div class="cp_comment">
+          <h2 class="cp_h2">蜜汁鸡翅的讨论</h2>
+          <div class="cp_comment_con">
+            <!-- 用户评论区 -->
+            <div class="cp_com_form clearfix">
+              <a href="javascript:;" class="user_avatar">
+                <img src="https://s1.st.meishij.net/user/52/53/t13888302_156307295255292.jpg">
+              </a>
+              <div class="form_con">
+                <div class="form_tag">
+                  <em>给内容一个标签：</em>
+                  <span class="current">随意吐槽</span>
+                  <span>提问求解</span>
+                </div>
+                <form>
+                  <textarea placeholder="说点什么吧"></textarea>
+                  <input type="submit" class="submit" value="提交">
+                </form>
+                <a href="javascrpt:;" class="cp_upload">上传成果作品</a>
+              </div>
+            </div>
+            <!-- 排序区 -->
+            <div class="cp_com_list">
+              <strong>评论排序：</strong>
+              <span class="current">最新</span>
+              <span>最热</span>
+            </div>
+            <!-- 讨论区 -->
+            <div class="new_com">
+              <ul>
+                <li class="com_li clearfix">
+                  <a href="javascript:;" class="avatar">
+                    <img src="https://s1.c.meishij.net/images/default/tx2_1.png">
+                    <h5>用户4576864</h5>
+                  </a>
+                  <div class="c">
+                    <p><strong>[随意吐槽]</strong>好好吃的亚子，看到就饿了……</p>
+                    <div class="info">
+                      <span>2019-07-14 15:09:18来自<a href="javascript:;">美食杰</a></span>
+                      <a href="javascript:;">回复</a>
+                      <span class="zan">
+                        <em></em>
+                        <strong>5</strong>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="com_li clearfix">
+                  <a href="javascript:;" class="avatar">
+                    <img src="https://s1.c.meishij.net/images/default/tx2_8.png">
+                    <h5>小豆豆</h5>
+                  </a>
+                  <div class="c">
+                    <p><strong>[随意吐槽]</strong>这个貌似很不错</p>
+                    <div class="info">
+                      <span>2019-07-13 20:06:45来自<a href="javascript:;">美食杰</a></span>
+                      <a href="javascript:;">回复</a>
+                      <span class="zan">
+                        <em></em>
+                        <strong>2</strong>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="com_li clearfix">
+                  <a href="javascript:;" class="avatar">
+                    <img src="https://s1.c.meishij.net/images/default/tx2_6.png">
+                    <h5>两百斤的小胖子</h5>
+                  </a>
+                  <div class="c">
+                    <p><strong>[提问求解]</strong>为啥我的糊了……</p>
+                    <div class="info">
+                      <span>2019-07-13 19:20:32来自<a href="javascript:;">美食杰</a></span>
+                      <a href="javascript:;">回复</a>
+                      <span class="zan">
+                        <em></em>
+                        <strong>6</strong>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="com_li clearfix">
+                  <a href="javascript:;" class="avatar">
+                    <img src="https://s1.c.meishij.net/images/default/tx2_4.png">
+                    <h5>圆圆</h5>
+                  </a>
+                  <div class="c">
+                    <p><strong>[随意吐槽]</strong>回去试试</p>
+                    <div class="info">
+                      <span>2019-07-13 13:35:18来自<a href="javascript:;">美食杰</a></span>
+                      <a href="javascript:;">回复</a>
+                      <span class="zan">
+                        <em></em>
+                        <strong>1</strong>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="com_li clearfix">
+                  <a href="javascript:;" class="avatar">
+                    <img src="https://s1.c.meishij.net/images/default/tx2_7.png">
+                    <h5>苏打</h5>
+                  </a>
+                  <div class="c">
+                    <p><strong>[随意吐槽]</strong>赞赞</p>
+                    <div class="info">
+                      <span>2019-07-13 09:46:58来自<a href="javascript:;">美食杰</a></span>
+                      <a href="javascript:;">回复</a>
+                      <span class="zan">
+                        <em></em>
+                        <strong>9</strong>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
