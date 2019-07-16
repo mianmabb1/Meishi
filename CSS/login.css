@@ -170,6 +170,7 @@
 .lp_login .submit:hover{
   background: #db432e;
 }
+
 /* 注册表单 */
 .lp_zc{
   width: 60%;
@@ -200,4 +201,106 @@
   color: #333;
   font-weight: bold;
   text-decoration: none;
+}
+.lp_zc_con{
+  width: 320px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.lp_zc_w{
+  width: 640px;
+  margin-left: 0px;
+}
+.zc_item{
+  width: 320px;
+  margin: 24px auto 0px;
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+.zc_item .text,.zc_item .password{
+  width: 296px;
+  height: 22px;
+  line-height: 22px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #333;
+  padding: 11px;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+.zc_item .text2{
+  width:150px;
+}
+.login_tip{
+  height: 24px;
+  line-height: 24px;
+  font-size: 13px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  background: url(https://s1.c.meishij.net/web1/images/nl_tipsicons.png) no-repeat;
+}
+.login_tip.false{
+  background-position: 0px -48px;
+  color:#ec5541;
+}
+.login_tip.true{
+  background-position: 0px -24px;
+  color: #8fc31f;
+}
+.get_yzm{
+  width:134px;
+  float: right;
+  background: #8fc31f;
+  border: 1px solid #75ab49;
+  height: 43px;
+  line-height: 43px;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 15px;
+}
+.get_yzm:hover{
+  background: #75ab49;
+}
+.get_yzm.sended{
+  background: #ddd;
+  border: 1px solid #ccc;
+  color: #999;
+}
+.zc_item label{
+  color: #666;
+  line-height: 22px;
+  font-size: 13px;
+}
+.zc_item label input{
+  margin-top: -2px;
+  position: relative;
+}
+.zc_item label a{
+  color: #ec5541;
+}
+.zc_item label a:hover{
+  text-decoration: underline;
+}
+.zc_item div{
+  text-align: center;
+  margin-top: 14px;
+}
+.zc_item .submit{
+  width:78px;
+  height:42px;
+  padding: 0 24px;
+  display: inline-block;
+  border:1px solid #db432e;
+  background: #ec5541;
+  color:#fff;
+  font-size: 15px;
+  border-radius:4px;
+  line-height: 40px;
+  cursor: pointer;
+}
+.zc_item .submit:hover{
+  background: #db432e;
 }

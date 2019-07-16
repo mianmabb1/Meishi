@@ -34,10 +34,10 @@
           <a href="javascrpt:;" class="a2">百度账号登录</a>
           <a href="javascrpt:;" class="a3">开心网账号登录</a>
         </div>
-        <div class="lp_or"></div>
       </div>
+      <div class="lp_or"></div>
       <!-- 普通登录 -->
-      <div class="lp_login" style="display: none">
+      <div class="lp_login" id="lp_login">
         <form action="post">
           <input type="text" class="text" placeholder="请输入手机号/邮箱/昵称">
           <input type="password" class="password" placeholder="请输入密码">
@@ -48,18 +48,42 @@
         </form>
       </div>
       <!-- 注册表单 -->
-      <div class="lp_zc">
+      <div class="lp_zc" id="lp_zc" style="display: none">
         <div class="lp_tab">
           <a href="javascrpt:;" class="current" id="zc_phone">手机注册</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
           <a href="javascrpt:;" id="zc_email">邮箱注册</a>
         </div>
         <div class="lp_zc_con clearfix">
-          <div class="zc_item">
-            <form action="post">
-              <input type="text" placeholder="请输入手机号">
-            </form>
+          <div class="lp_zc_w">
+            <div class="zc_item">
+              <form action="post">
+                <input type="text" class="text" placeholder="请输入手机号" passcheck=0>
+                <p class="login_tip false">请输入正确的手机号</p>
+                <input type="text" class="text" placeholder="请输入验证码" passcheck=0 style="width:150px">
+                <a href="javascript:;" class="get_yzm sended">免费获取验证码</a>
+                <input type="password" class="password" placeholder="请输入密码">
+                <p class="login_tip false">密码的长度应为6-16位</p>
+                <label>
+                  <input type="checkbox"> 我已阅读并同意
+                  <a href="javascript:;">美食杰用户使用协议</a>
+                </label>
+                <div><input type="submit" class="submit" value="注册"></div>
+              </form>
+            </div>
+            <div class="zc_item">
+              <form action="post">
+                <input type="text" class="text" placeholder="请输入邮箱" passcheck=0>
+                <p class="login_tip false">请输入正确的邮箱</p>
+                <input type="password" class="password" placeholder="请输入密码">
+                <p class="login_tip false">密码的长度应为6-16位</p>
+                <label>
+                  <input type="checkbox"> 我已阅读并同意
+                  <a href="javascript:;">美食杰用户使用协议</a>
+                </label>
+                <div><input type="submit" class="submit" value="注册"></div>
+              </form>
+            </div>
           </div>
-          <div class="zc_item"></div>
         </div>
       </div>
       <a href="javascript:;" class="golink" id="lp_gozc" opened="0">还没有账号? 立即注册 ∨</a>
