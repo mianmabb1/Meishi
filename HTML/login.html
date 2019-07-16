@@ -41,8 +41,9 @@
         <form action="post">
           <input type="text" class="text" placeholder="请输入手机号/邮箱/昵称">
           <input type="password" class="password" placeholder="请输入密码">
-          <input type="checkbox" class="checkbox">
-          <span>下次自动登录</span>
+          <label>
+            <input type="checkbox" class="checkbox"> 下次自动登录
+          </label>
           <a href="javascript:;" class="forgetPwd">忘记密码?</a>
           <div><input type="submit" class="submit" value="登录"></div>
         </form>
@@ -57,12 +58,12 @@
           <div class="lp_zc_w">
             <div class="zc_item">
               <form action="post">
-                <input type="text" class="text" placeholder="请输入手机号" passcheck=0>
-                <p class="login_tip false">请输入正确的手机号</p>
+                <input type="text" class="text pn_check" placeholder="请输入手机号" passcheck=0>
+                <p class="login_tip tip" style="display:none;"></p>
                 <input type="text" class="text" placeholder="请输入验证码" passcheck=0 style="width:150px">
-                <a href="javascript:;" class="get_yzm sended">免费获取验证码</a>
+                <a href="javascript:;" class="get_yzm sended" id="yzm_btn">免费获取验证码</a>
                 <input type="password" class="password" placeholder="请输入密码">
-                <p class="login_tip false">密码的长度应为6-16位</p>
+                <p class="login_tip" style="display:none;"></p>
                 <label>
                   <input type="checkbox"> 我已阅读并同意
                   <a href="javascript:;">美食杰用户使用协议</a>
@@ -72,10 +73,10 @@
             </div>
             <div class="zc_item">
               <form action="post">
-                <input type="text" class="text" placeholder="请输入邮箱" passcheck=0>
-                <p class="login_tip false">请输入正确的邮箱</p>
+                <input type="text" class="text email_check" placeholder="请输入邮箱" passcheck=0>
+                <p class="login_tip false" style="display:none;"></p>
                 <input type="password" class="password" placeholder="请输入密码">
-                <p class="login_tip false">密码的长度应为6-16位</p>
+                <p class="login_tip" style="display:none;"></p>
                 <label>
                   <input type="checkbox"> 我已阅读并同意
                   <a href="javascript:;">美食杰用户使用协议</a>

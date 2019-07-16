@@ -130,15 +130,14 @@
   margin-bottom: 14px;
   font-size: 14px;
 }
-.lp_login .checkbox{
-  height: 22px;
-}
-.lp_login span{
+.lp_login label{
   display: inline-block;
   vertical-align: top;
   color: #666;
   font-size: 13px;
-  line-height: 22px;
+}
+.lp_login .checkbox{
+  height: 22px;
 }
 .lp_login .forgetPwd{
   float: right;
@@ -248,6 +247,10 @@
 .login_tip.true{
   background-position: 0px -24px;
   color: #8fc31f;
+}
+.login_tip.tip{
+  background-position: 0px 0px;
+  color: #7ecef4;
 }
 .get_yzm{
   width:134px;
