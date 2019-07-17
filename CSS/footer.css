@@ -14,7 +14,7 @@
 /* logo图片 */
 .footer div.logo_bottom{
   height: 196px; width: 600px;
-  background: url("https://s1.st.meishij.net/p2/20190606/20190606113304_957.png") no-repeat left center;
+  background: url("../images/footer/20190606113304_957.png") no-repeat left center;
   background-size: 70% auto;
 }
 .footer div.logo_bottom a{

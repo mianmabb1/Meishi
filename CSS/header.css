@@ -129,7 +129,7 @@
 }
 /* 菜谱大全，饮食健康 */
 .nav ul li.extend{
-  background: url("../images/header/msj_menuarrow.gif") no-repeat right center;
+  background: url(../images/header/msj_menuarrow.gif) no-repeat right center;
 }
 /* 美食达人li小图标 */
 .nav a.link .crown{

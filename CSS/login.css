@@ -18,7 +18,7 @@
   width: 91px;
   height: 9px;
   margin-top: 17px;
-  background: url(https://s1.c.meishij.net/web1/images/nl_title_left.png) center no-repeat;
+  background: url(../images/login/nl_title_left.png) center no-repeat;
   margin-right: 20px;
 }
 .lp_title .lp_t_right{
@@ -27,7 +27,7 @@
   width: 91px;
   height: 9px;
   margin-top: 17px;
-  background: url(https://s1.c.meishij.net/web1/images/nl_title_right.png) center no-repeat;
+  background: url(../images/login/nl_title_right.png) center no-repeat;
   margin-left: 20px;
 }
 .lp_fs{
@@ -45,7 +45,7 @@
   display: block;
   height: 108px;
   width: 108px;
-  background: url(https://s1.c.meishij.net/web1/images/nl_dsficon1.png) no-repeat;
+  background: url(../images/login/nl_dsficon1.png) no-repeat;
 }
 .lp_fs1 .a1 span{
   background-position: 0px 0px;
@@ -95,7 +95,7 @@
   margin-top: 42px;
   padding: 0px 20px;
   color: #333;
-  background: url(https://s1.c.meishij.net/web1/images/nl_moredsf_icons.png) no-repeat;
+  background: url(../images/login/nl_moredsf_icons.png) no-repeat;
 }
 .lp_morefs a:hover{
   color: #ec5541;
@@ -110,7 +110,7 @@
 .lp_or{
   height: 69px;
   width: 100%;
-  background: url(https://s1.c.meishij.net/web1/images/nl_or.png) center no-repeat;
+  background: url(../images/login/nl_or.png) center no-repeat;
 }
 /* 登录表单 */
 .lp_login{
@@ -238,7 +238,7 @@
   margin-top: -10px;
   margin-bottom: 10px;
   padding-left: 20px;
-  background: url(https://s1.c.meishij.net/web1/images/nl_tipsicons.png) no-repeat;
+  background: url(../images/login/nl_tipsicons.png) no-repeat;
 }
 .login_tip.false{
   background-position: 0px -48px;
