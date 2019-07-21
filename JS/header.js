@@ -1,8 +1,8 @@
 $(function(){
-  $(".nav_main li").hover(function(){
+  $(".nav_main li").hover(function () {
     $(this).siblings().removeClass("on");
     $(this).addClass("on");
-  }),function(){
+  }, function () {
     $(this).removeClass("on");
-  }
+  });
 })

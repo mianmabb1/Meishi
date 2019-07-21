@@ -128,7 +128,7 @@
   height: 72px;
 }
 /* 菜谱大全，饮食健康 */
-.nav ul li.extend{
+.nav ul li.extend{ 
   background: url(../images/header/msj_menuarrow.gif) no-repeat right center;
 }
 /* 美食达人li小图标 */
@@ -144,6 +144,7 @@
   top: 76px;
   left: 0px;
   width: 100%;
+  z-index:200;
 }
 .nav ul li.on .cook{
   display: block;

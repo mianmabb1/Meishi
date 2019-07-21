@@ -8,4 +8,8 @@ $(function(){
     $(".measure_con .cp_banner img").eq(imgIndex).css("display", "block");
     $(".measure_con .cp_banner ul li").eq(imgIndex).css("background", "#e90808");
   }
+  $("ul.cp_banner_index").on("click","li",function(){
+    var $li=$(this);
+    imgIndex=$li.index();
+  })
 })

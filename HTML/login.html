@@ -12,8 +12,10 @@
   <link rel="stylesheet" href="../CSS/login.css">
   <script src="../JS/jquery-1.11.3.js"></script>
   <script src="../JS/login.js"></script>
+  <script src="../JS/add.js"></script>
 </head>
 <body>
+  <div id="header"></div>
   <div class="main_w">
     <div class="loginpage">
       <h3 class="lp_title">
@@ -40,7 +42,9 @@
       <div class="lp_login" id="lp_login">
         <form action="post">
           <input type="text" class="text" placeholder="请输入手机号/邮箱/昵称">
-          <input type="password" class="password" placeholder="请输入密码">
+          <div>
+            <input type="password" class="password" placeholder="请输入密码">
+          </div>
           <label>
             <input type="checkbox" class="checkbox"> 下次自动登录
           </label>
@@ -90,5 +94,6 @@
       <a href="javascript:;" class="golink" id="lp_gozc" opened="0">还没有账号? 立即注册 ∨</a>
     </div>
   </div>
+  <div id="footer"></div>
 </body>
 </html>
