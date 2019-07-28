@@ -25,15 +25,35 @@ body{background: #FAE8C8;overflow-x: hidden;}
   margin-top: 120px;
 }
 .carousel_main{
-  /* width: 5000px; */
+  width: 5000px;
   position: relative;
   height: 330px;
-  /* left: -1980px; */
+  left: -1980px;
 }
 .carousel_item{
   width: 990px;
   height: 330px;
   position: absolute;
+}
+.carousel_item_1{
+  left:0px;
+  top:0px;
+}
+.carousel_item_2{
+  left:990px;
+  top:0px;
+}
+.carousel_item_3{
+  left:1980px;
+  top:0px;
+}
+.carousel_item_4{
+  left:2970px;
+  top:0px;
+}
+.carousel_item_5{
+  left:3960px;
+  top:0px;
 }
 /* 先将所有的标题隐藏 */
 .ttitles_carousel{
@@ -109,9 +129,136 @@ body{background: #FAE8C8;overflow-x: hidden;}
   top: 0px;
   right:-6px;
 }
-
-
-
+/* 左侧掩饰区域 */
+.carousel .maskleft{
+  height:330px;
+  width:990px;
+  position: absolute;
+  left:-990px;
+  top:0px;
+  background: #fff;
+  opacity: 0.5;
+  z-index:100;
+}
+/* 右侧掩饰区域 */
+.carousel .maskright{
+  height:330px;
+  width:990px;
+  position: absolute;
+  left:990px;
+  top:0px;
+  background: #fff;
+  opacity: 0.5;
+  z-index:100;
+}
+/* 按钮 */
+.carousel .prev_btn,.carousel .next_btn{
+  height:73px;
+  width:173px;
+  position: absolute;  /* 相对于carousel_main定位 */
+  cursor: pointer;
+  z-index:200;
+}
+.carousel .prev_btn{
+  left:-60px;
+  top: 128px;
+  background: url(../images/index/carousel_bg.png) no-repeat;
+}
+.carousel .prev_btn1{
+  background-position: 0px 6px;
+}
+.carousel .next_btn{
+  right:-60px;
+  top: 128px;
+  background: url(../images/index/carousel_bg.png) no-repeat;
+}
+.carousel .next_btn1{
+  background-position: -172px 6px;
+}
+/* 时间刻度 */
+.carousel .time_scale{
+  height:52px;
+  width:100%;
+  position: absolute;
+  left:0;
+  top:330px;
+}
+.time_scale .time_scale_w{
+  width:990px;
+  height:52px;
+  margin:0 auto;
+  background: #fff url(../images/index/kedulong.gif) 0px 0px repeat-x;
+  overflow: hidden;
+}
+.time_scale .time_scale_w .mtime{
+  float: left;
+  width: 198px;
+  height:48px;
+  line-height:48px;
+  color:#999;
+  text-align: center;
+  font-size:14px;
+  border-top:4px solid #aaa;
+  position: relative;
+}
+.time_scale .time_scale_w .mtime_current{
+  border-top-color: #FF6363;
+  color:#FF6363;
+  background: #f9f9f9 url(../images/index/kedulong.gif) 0px -4px no-repeat;
+  font-weight: bold;
+}
+.time_scale .time_scale_w .mtime span{
+  display: none;
+}
+.time_scale .time_scale_w .mtime_current span{
+  display: block;
+}
+.time_scale .time_scale_left{
+  width: 1000px;
+  height:48px;
+  position: absolute;
+  left: -1000px;
+  top: 0px;
+  border-top: 4px solid #aaa;
+  background: #fff url(../images/index/kedulong.gif) right -4px repeat-x;
+}
+.time_scale .time_scale_right{
+  width: 1000px;
+  height: 48px;
+  position: absolute;
+  right: -1000px;
+  top: 0px;
+  border-top: 4px solid #aaa;
+  background: #fff url(../images/index/kedulong.gif) left -4px repeat-x;
+}
+.time_scale span.time{
+  display: block;
+  height:48px;
+  width: 60px;
+  position: absolute;
+  top:4px;
+  font-size:18px;
+  color:#aaa;
+  line-height: 48px;
+}
+.time_scale span.time4{
+  left:-11px;
+}
+.time_scale span.time10{
+  left:176px;
+}
+.time_scale span.time14{
+  left:375px;
+}
+.time_scale span.time16{
+  left:573px;
+}
+.time_scale span.time21{
+  left:771px;
+}
+.time_scale span.time4_{
+  left:979px;
+}
 
 
 
