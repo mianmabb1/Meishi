@@ -157,7 +157,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
   width:173px;
   position: absolute;  /* 相对于carousel_main定位 */
   cursor: pointer;
-  z-index:200;
+  z-index:150;
 }
 .carousel .prev_btn{
   left:-60px;
