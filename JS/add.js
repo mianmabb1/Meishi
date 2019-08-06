@@ -2,6 +2,7 @@ $(function(){
   $.ajax({
     url:"header.html",
     type:"get",
+    async: true,
     // dataType:"text",
     success:function(result){
       $(result).replaceAll("#header");
@@ -15,6 +16,8 @@ $(function(){
   $.ajax({
     url:"footer.html",
     type:"get",
+    async: true,
+
     success:function(result){
       $(result).replaceAll("#footer");
       $(`<link rel="stylesheet" href="../CSS/footer.css">`).appendTo("head");
