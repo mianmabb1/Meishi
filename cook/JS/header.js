@@ -16,5 +16,4 @@ $(function(){
       window.scrollTo(0,0); //回到页面顶部
     })
   })
-  
 })

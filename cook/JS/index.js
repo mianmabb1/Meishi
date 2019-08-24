@@ -81,26 +81,6 @@ $(function(){
     $("#prev_btn").mouseenter();
     $("#next_btn").mouseenter();
   });
-  // $("#carousel_main").mouseleave(function(){
-  //   $("#prev_btn").trigger("mouseleave");
-  //   $("#next_btn").trigger("mouseleave");
-  // });
-  // $("#maskleft").mouseenter(function () {
-  //   var now = parseInt($(".carousel_item_3").attr("c"));
-  //   if (now == 1) { now = 6 };
-  //   // 修改按钮背景图
-  //   $(this).css("background-position", `0px ${6 - (now - 1) * 74}px`);
-  // }, function () {
-  //   $(this).css("background-position", "0 6px");
-  // });
-  // $("#maskleft").mouseleave(function(){
-  //   $("#prev_btn").trigger("mouseleave");
-  //   $("#next_btn").trigger("mouseleave");
-  // });
-
-
-
-
   // 食材列表
   $(".index_sc_item").hover(function(){
     $(this).siblings().removeClass("index_sc_item_current");

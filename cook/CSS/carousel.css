@@ -100,7 +100,7 @@
 .carousel_item ul li div.c span em{
   display: block;
   width:6px;height:6px;
-  background: url(../images/index/gxarrow1.png);
+  background: url(http://127.0.0.1:5050/images/index/gxarrow1.png);
   position: absolute;
   top: 0px;
   right:-6px;

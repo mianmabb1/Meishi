@@ -124,7 +124,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
 .carousel_item ul li div.c span em{
   display: block;
   width:6px;height:6px;
-  background: url(../images/index/gxarrow1.png);
+  background: url(http://127.0.0.1:5050/images/index/gxarrow1.png);
   position: absolute;
   top: 0px;
   right:-6px;
@@ -162,7 +162,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
 .carousel .prev_btn{
   left:-60px;
   top: 128px;
-  background: url(../images/index/carousel_bg.png) no-repeat;
+  background: url(http://127.0.0.1:5050/images/index/carousel_bg.png) no-repeat;
 }
 .carousel .prev_btn1{
   background-position: 0px 6px;
@@ -170,7 +170,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
 .carousel .next_btn{
   right:-60px;
   top: 128px;
-  background: url(../images/index/carousel_bg.png) no-repeat;
+  background: url(http://127.0.0.1:5050/images/index/carousel_bg.png) no-repeat;
 }
 .carousel .next_btn1{
   background-position: -172px 6px;
@@ -187,7 +187,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
   width:990px;
   height:52px;
   margin:0 auto;
-  background: #fff url(../images/index/kedulong.gif) 0px 0px repeat-x;
+  background: #fff url(http://127.0.0.1:5050/images/index/kedulong.gif) 0px 0px repeat-x;
   overflow: hidden;
 }
 .time_scale .time_scale_w .mtime{
@@ -204,7 +204,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
 .time_scale .time_scale_w .mtime_current{
   border-top-color: #FF6363;
   color:#FF6363;
-  background: #f9f9f9 url(../images/index/kedulong.gif) 0px -4px no-repeat;
+  background: #f9f9f9 url(http://127.0.0.1:5050/images/index/kedulong.gif) 0px -4px no-repeat;
   font-weight: bold;
 }
 .time_scale .time_scale_w .mtime span{
@@ -220,7 +220,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
   left: -1000px;
   top: 0px;
   border-top: 4px solid #aaa;
-  background: #fff url(../images/index/kedulong.gif) right -4px repeat-x;
+  background: #fff url(http://127.0.0.1:5050/images/index/kedulong.gif) right -4px repeat-x;
 }
 .time_scale .time_scale_right{
   width: 1000px;
@@ -229,7 +229,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
   right: -1000px;
   top: 0px;
   border-top: 4px solid #aaa;
-  background: #fff url(../images/index/kedulong.gif) left -4px repeat-x;
+  background: #fff url(http://127.0.0.1:5050/images/index/kedulong.gif) left -4px repeat-x;
 }
 .time_scale span.time{
   display: block;
@@ -468,7 +468,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
 .listyle1 a.big .i_w .c2 ul li{
   float:left;
   width: 208px;height:32px;
-  background: url(../images/index/list_style1_icons.png) no-repeat;
+  background: url(http://127.0.0.1:5050/images/index/list_style1_icons.png) no-repeat;
   text-indent: 32px;
   line-height: 32px;
   color: #666;
@@ -587,7 +587,7 @@ body{background: #FAE8C8;overflow-x: hidden;}
   display: block;
   height: 6px;
   width: 6px;
-  background: url(../images/index/gxarrow1.png) 0px 0px no-repeat;
+  background: url(http://127.0.0.1:5050/images/index/gxarrow1.png) 0px 0px no-repeat;
 }
 .index_health div.health_div1 ul{
   padding-left: 160px;
